@@ -1,6 +1,6 @@
 FROM node:alpine
 
-RUN npm install -G pug-cli 
+RUN npm install -G pug-cli jstransformer-markdown-it
 
 VOLUME [ "/work" ]
 
